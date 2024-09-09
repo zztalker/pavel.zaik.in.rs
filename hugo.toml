@@ -1,4 +1,26 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://pavel.zaik.in.rs/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'terminal'
+title = 'Pavel Zaikin'
+theme = 'freshpink'
+
+[params]
+  githubUsername = "zztalker"
+  copyright = "Copyright © 2024 Pavel Zaikin"
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Pet Projects'
+    pageRef = '/pet'
+    weight = 20
+  [[menus.main]]
+    name = 'Services'
+    pageRef = '/services'
+    weight = 30
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 30

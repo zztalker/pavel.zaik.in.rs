@@ -11,3 +11,9 @@ hugo.linux
 
 # Temporary lock file while building
 /.hugo_build.lock
+
+# MacOS
+.DS_Store
+
+# Secrets
+.env
